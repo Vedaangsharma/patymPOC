@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029CBE6B24CA23D8001F5BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CBE6A24CA23D8001F5BC3 /* AppDelegate.swift */; };
+		029CBE6D24CA23D8001F5BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CBE6C24CA23D8001F5BC3 /* SceneDelegate.swift */; };
+		029CBE7224CA23D8001F5BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CBE7024CA23D8001F5BC3 /* Main.storyboard */; };
+		029CBE7424CA23DC001F5BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029CBE7324CA23DC001F5BC3 /* Assets.xcassets */; };
+		029CBE7724CA23DC001F5BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CBE7524CA23DC001F5BC3 /* LaunchScreen.storyboard */; };
+		029CBE8224CA24C0001F5BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CBE8124CA24BF001F5BC3 /* ViewController.swift */; };
+		029CBE9524CA28E9001F5BC3 /* nnn.m in Sources */ = {isa = PBXBuildFile; fileRef = 029CBE9424CA28E9001F5BC3 /* nnn.m */; };
+		02C1555624D34B30005B0627 /* AppInvokeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1555224D21475005B0627 /* AppInvokeSDK.framework */; };
+		02C1555724D34B30005B0627 /* AppInvokeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1555224D21475005B0627 /* AppInvokeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02C1555824D34B31005B0627 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029CBE8524CA261D001F5BC3 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02E6476E24CB605C003210E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				02C1555724D34B30005B0627 /* AppInvokeSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		029CBE6724CA23D8001F5BC3 /* PaytmPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaytmPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		029CBE6A24CA23D8001F5BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		029CBE6C24CA23D8001F5BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		029CBE7124CA23D8001F5BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		029CBE7324CA23DC001F5BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		029CBE7624CA23DC001F5BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		029CBE7824CA23DC001F5BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029CBE8124CA24BF001F5BC3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/iOS-examples-master/PaytmSwift/PaytmSwift/ViewController.swift"; sourceTree = "<group>"; };
+		029CBE8324CA25E8001F5BC3 /* libPaymentsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPaymentsSDK.a; path = PaytmSwift/libPaymentsSDK.a; sourceTree = "<group>"; };
+		029CBE8524CA261D001F5BC3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		029CBE9324CA28E8001F5BC3 /* PaytmPoc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaytmPoc-Bridging-Header.h"; sourceTree = "<group>"; };
+		029CBE9424CA28E9001F5BC3 /* nnn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnn.m; sourceTree = "<group>"; };
+		02C1555224D21475005B0627 /* AppInvokeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppInvokeSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029CBE6424CA23D8001F5BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1555824D34B31005B0627 /* SystemConfiguration.framework in Frameworks */,
+				02C1555624D34B30005B0627 /* AppInvokeSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029CBE5E24CA23D8001F5BC3 = {
+			isa = PBXGroup;
+			children = (
+				029CBE9424CA28E9001F5BC3 /* nnn.m */,
+				029CBE6924CA23D8001F5BC3 /* PaytmPoc */,
+				029CBE6824CA23D8001F5BC3 /* Products */,
+				029CBE8024CA249D001F5BC3 /* Frameworks */,
+				029CBE9324CA28E8001F5BC3 /* PaytmPoc-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		029CBE6824CA23D8001F5BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				029CBE6724CA23D8001F5BC3 /* PaytmPoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		029CBE6924CA23D8001F5BC3 /* PaytmPoc */ = {
+			isa = PBXGroup;
+			children = (
+				02C1555224D21475005B0627 /* AppInvokeSDK.framework */,
+				029CBE6A24CA23D8001F5BC3 /* AppDelegate.swift */,
+				029CBE6C24CA23D8001F5BC3 /* SceneDelegate.swift */,
+				029CBE8124CA24BF001F5BC3 /* ViewController.swift */,
+				029CBE7024CA23D8001F5BC3 /* Main.storyboard */,
+				029CBE7324CA23DC001F5BC3 /* Assets.xcassets */,
+				029CBE7524CA23DC001F5BC3 /* LaunchScreen.storyboard */,
+				029CBE7824CA23DC001F5BC3 /* Info.plist */,
+			);
+			path = PaytmPoc;
+			sourceTree = "<group>";
+		};
+		029CBE8024CA249D001F5BC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				029CBE8524CA261D001F5BC3 /* SystemConfiguration.framework */,
+				029CBE8324CA25E8001F5BC3 /* libPaymentsSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		029CBE6624CA23D8001F5BC3 /* PaytmPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029CBE7B24CA23DC001F5BC3 /* Build configuration list for PBXNativeTarget "PaytmPoc" */;
+			buildPhases = (
+				029CBE6324CA23D8001F5BC3 /* Sources */,
+				029CBE6424CA23D8001F5BC3 /* Frameworks */,
+				029CBE6524CA23D8001F5BC3 /* Resources */,
+				02E6476E24CB605C003210E2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaytmPoc;
+			productName = PaytmPoc;
+			productReference = 029CBE6724CA23D8001F5BC3 /* PaytmPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		029CBE5F24CA23D8001F5BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Oyes;
+				TargetAttributes = {
+					029CBE6624CA23D8001F5BC3 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 029CBE6224CA23D8001F5BC3 /* Build configuration list for PBXProject "PaytmPoc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 029CBE5E24CA23D8001F5BC3;
+			productRefGroup = 029CBE6824CA23D8001F5BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				029CBE6624CA23D8001F5BC3 /* PaytmPoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029CBE6524CA23D8001F5BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029CBE7724CA23DC001F5BC3 /* LaunchScreen.storyboard in Resources */,
+				029CBE7424CA23DC001F5BC3 /* Assets.xcassets in Resources */,
+				029CBE7224CA23D8001F5BC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029CBE6324CA23D8001F5BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029CBE6B24CA23D8001F5BC3 /* AppDelegate.swift in Sources */,
+				029CBE8224CA24C0001F5BC3 /* ViewController.swift in Sources */,
+				029CBE9524CA28E9001F5BC3 /* nnn.m in Sources */,
+				029CBE6D24CA23D8001F5BC3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		029CBE7024CA23D8001F5BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029CBE7124CA23D8001F5BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		029CBE7524CA23DC001F5BC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029CBE7624CA23DC001F5BC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		029CBE7924CA23DC001F5BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		029CBE7A24CA23DC001F5BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		029CBE7C24CA23DC001F5BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA57HSZS8G;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaytmPoc",
+					"$(PROJECT_DIR)/PaytmPoc/PatmSDK",
+				);
+				INFOPLIST_FILE = PaytmPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaytmSwift",
+					"$(PROJECT_DIR)/PaytmPoc/PatmSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MetroRideOyes.PaytmPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaytmPoc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		029CBE7D24CA23DC001F5BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA57HSZS8G;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaytmPoc",
+					"$(PROJECT_DIR)/PaytmPoc/PatmSDK",
+				);
+				INFOPLIST_FILE = PaytmPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaytmSwift",
+					"$(PROJECT_DIR)/PaytmPoc/PatmSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MetroRideOyes.PaytmPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaytmPoc-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029CBE6224CA23D8001F5BC3 /* Build configuration list for PBXProject "PaytmPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029CBE7924CA23DC001F5BC3 /* Debug */,
+				029CBE7A24CA23DC001F5BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029CBE7B24CA23DC001F5BC3 /* Build configuration list for PBXNativeTarget "PaytmPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029CBE7C24CA23DC001F5BC3 /* Debug */,
+				029CBE7D24CA23DC001F5BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 029CBE5F24CA23D8001F5BC3 /* Project object */;
+}
