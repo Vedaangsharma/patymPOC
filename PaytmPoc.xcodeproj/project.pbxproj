@@ -12,10 +12,7 @@
 		029CBE7224CA23D8001F5BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CBE7024CA23D8001F5BC3 /* Main.storyboard */; };
 		029CBE7424CA23DC001F5BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029CBE7324CA23DC001F5BC3 /* Assets.xcassets */; };
 		029CBE7724CA23DC001F5BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CBE7524CA23DC001F5BC3 /* LaunchScreen.storyboard */; };
-		029CBE8224CA24C0001F5BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CBE8124CA24BF001F5BC3 /* ViewController.swift */; };
 		029CBE9524CA28E9001F5BC3 /* nnn.m in Sources */ = {isa = PBXBuildFile; fileRef = 029CBE9424CA28E9001F5BC3 /* nnn.m */; };
-		02C1555624D34B30005B0627 /* AppInvokeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1555224D21475005B0627 /* AppInvokeSDK.framework */; };
-		02C1555724D34B30005B0627 /* AppInvokeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1555224D21475005B0627 /* AppInvokeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02C1555824D34B31005B0627 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029CBE8524CA261D001F5BC3 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				02C1555724D34B30005B0627 /* AppInvokeSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,12 +37,10 @@
 		029CBE7324CA23DC001F5BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029CBE7624CA23DC001F5BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029CBE7824CA23DC001F5BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		029CBE8124CA24BF001F5BC3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/iOS-examples-master/PaytmSwift/PaytmSwift/ViewController.swift"; sourceTree = "<group>"; };
 		029CBE8324CA25E8001F5BC3 /* libPaymentsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPaymentsSDK.a; path = PaytmSwift/libPaymentsSDK.a; sourceTree = "<group>"; };
 		029CBE8524CA261D001F5BC3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		029CBE9324CA28E8001F5BC3 /* PaytmPoc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaytmPoc-Bridging-Header.h"; sourceTree = "<group>"; };
 		029CBE9424CA28E9001F5BC3 /* nnn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnn.m; sourceTree = "<group>"; };
-		02C1555224D21475005B0627 /* AppInvokeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppInvokeSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +49,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C1555824D34B31005B0627 /* SystemConfiguration.framework in Frameworks */,
-				02C1555624D34B30005B0627 /* AppInvokeSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +77,8 @@
 		029CBE6924CA23D8001F5BC3 /* PaytmPoc */ = {
 			isa = PBXGroup;
 			children = (
-				02C1555224D21475005B0627 /* AppInvokeSDK.framework */,
 				029CBE6A24CA23D8001F5BC3 /* AppDelegate.swift */,
 				029CBE6C24CA23D8001F5BC3 /* SceneDelegate.swift */,
-				029CBE8124CA24BF001F5BC3 /* ViewController.swift */,
 				029CBE7024CA23D8001F5BC3 /* Main.storyboard */,
 				029CBE7324CA23DC001F5BC3 /* Assets.xcassets */,
 				029CBE7524CA23DC001F5BC3 /* LaunchScreen.storyboard */,
@@ -179,7 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				029CBE6B24CA23D8001F5BC3 /* AppDelegate.swift in Sources */,
-				029CBE8224CA24C0001F5BC3 /* ViewController.swift in Sources */,
 				029CBE9524CA28E9001F5BC3 /* nnn.m in Sources */,
 				029CBE6D24CA23D8001F5BC3 /* SceneDelegate.swift in Sources */,
 			);
